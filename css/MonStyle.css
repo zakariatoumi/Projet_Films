@@ -2,7 +2,7 @@ body {
     background-color: black;
 }
 
-/******************************Style de slider**********************************/
+/******************************Style de slider de header**********************************/
 
 @import url(https://fonts.googleapis.com/css?family=Istok+Web);
 @keyframes slidy {
@@ -121,9 +121,4 @@ section .section-title {
 }
 
 /*******************slider verticale*************************/
-
-
-
-
-
 
