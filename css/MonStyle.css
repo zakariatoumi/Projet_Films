@@ -123,4 +123,6 @@ section .section-title {
 /*******************slider verticale*************************/
 
 
-
+#image{
+  width:200px;
+  height:100%;}
