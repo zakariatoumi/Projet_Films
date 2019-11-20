@@ -12,7 +12,7 @@
     <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
 
 
-   
+  
     
 
     <title>MovieFilme</title>
@@ -41,8 +41,8 @@
             
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+            <input class="form-control mr-sm-2" type="search" placeholder="Recherche..." aria-label="Search">
+            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Recherche</button>
           </form>
         </div>
       </nav>
@@ -50,30 +50,71 @@
 <!--***************************Slider************************************-->
 
 
-<div id="captioned-gallery">
-	<figure class="slider">
-		<figure>
-			<img src="img/bryce-canyon-utah.jpg" alt>
-			<figcaption>Hobbiton, New Zealand</figcaption>
-		</figure>
-		<figure>
-			<img src="img/hobbiton-lake.jpg" alt>
-			<figcaption>Wanaka, New Zealand</figcaption>
-		</figure>
-		<figure>
-			<img src="img/utah-peak.jpg" alt>
-			<figcaption>Utah, United States</figcaption>
-		</figure>
-		<figure>
-			<img src="img/wanaka-drowned-tree.jpg" alt>
-			<figcaption>Bryce Canyon, Utah, United States</figcaption>
-		</figure>
-		<figure>
-			<img src="img/bryce-canyon-utah.jpg" alt>
-			<figcaption>Hobbiton, New Zealand</figcaption>
-    </figure>
-	</figure>
+<!-- Slider -->
+<div id="slider">
+  <div class="slides">
+    <div class="slider">
+      <div class="legend"></div>
+      <div class="content">
+        <div class="content-txt">
+          <h1>Lorem ipsum dolor</h1>
+          <h2>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</h2>
+        </div>
+      </div>
+      <div class="image">
+        <img src="img/B9720917078Z.1_20190915225434_000+GQTEEV1ST.1-0.jpg">
+      </div>
+    </div>
+    <div class="slider">
+      <div class="legend"></div>
+      <div class="content">
+        <div class="content-txt">
+          <h1>Lorem ipsum dolor</h1>
+          <h2>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</h2>
+        </div>
+      </div>
+      <div class="image">
+        <img src="img/poster-image.jpg">
+      </div>
+    </div>
+    <div class="slider">
+      <div class="legend"></div>
+      <div class="content">
+        <div class="content-txt">
+          <h1>Lorem ipsum dolor</h1>
+          <h2>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</h2>
+        </div>
+      </div>
+      <div class="image">
+        <img src="img/ionetflix.jpg">
+      </div>
+    </div>
+    <div class="slider">
+      <div class="legend"></div>
+      <div class="content">
+        <div class="content-txt">
+          <h1>Lorem ipsum dolor</h1>
+          <h2>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</h2>
+        </div>
+      </div>
+      <div class="image">
+        <img src="img/maxresdefault.jpg">
+      </div>
+    </div>
+  </div>
+  <div class="switch">
+    <ul>
+      <li>
+        <div class="on"></div>
+      </li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
 </div>
+
+<div class="p-3 mb-2 bg-danger text-white"><br></div>
 
 <!--********************************contenu de la page*****************************-->
 
@@ -81,7 +122,7 @@
         <div class="container">
                 
                 <div class="row">
-                  <div class="col-8">
+                  <div class="col-12 col-sm-6 col-md-8">
                     <p class="text-light" style="font-size: 20px;font-weight: bold;">Filmes D'action</p>
                       <div class="owl-carousel owl-theme">
                           <div class="item-video">
@@ -238,14 +279,14 @@
                                 </div>
                                
                   </div>
-                  <div class="col-4">
+                  <div class="col-6 col-md-4">
             
                       <p class="text-light" style="font-size: 20px;font-weight: bold;">Filmes plus regarder</p>
                           
-                      <div class="card" style="width:400px; margin-top: 10%;">
+                      <div class="card FilmPlusVu" style="width:290px; margin-top: 10%;">
                         <div class="row">
                           <div class="col-sm-6">
-                            <iframe class="card-img" id="image" src="https://www.youtube.com/embed/GVxwcrGMlcU"></iframe>
+                            <iframe class="card-img image" src="https://www.youtube.com/embed/GVxwcrGMlcU"></iframe>
                           </div>
                           <div class="col-sm-6">
                             <div class="card-body-right">
@@ -258,10 +299,10 @@
                           </div>
                        
                       
-                          <div class="card" style="width:400px; margin-top: 10%;">
+                          <div class="card FilmPlusVu" style="width:290px; margin-top: 10%;">
                             <div class="row">
                               <div class="col-sm-6">
-                                <iframe class="card-img" id="image" src="https://www.youtube.com/embed/GVxwcrGMlcU"></iframe>
+                                <iframe class="card-img image" src="https://www.youtube.com/embed/GVxwcrGMlcU"></iframe>
                               </div>
                               <div class="col-sm-6">
                                 <div class="card-body-right">
@@ -274,10 +315,10 @@
                               </div>
 
 
-                              <div class="card" style="width:400px; margin-top: 10%;">
+                              <div class="card FilmPlusVu" style="width:290px; margin-top: 10%;">
                                 <div class="row">
                                   <div class="col-sm-6">
-                                    <iframe class="card-img" id="image" src="https://www.youtube.com/embed/GVxwcrGMlcU"></iframe>
+                                    <iframe class="card-img image" src="https://www.youtube.com/embed/GVxwcrGMlcU"></iframe>
                                   </div>
                                   <div class="col-sm-6">
                                     <div class="card-body-right">
@@ -290,10 +331,10 @@
                                   </div>
 
 
-                                  <div class="card" style="width:400px; margin-top: 10%;">
+                                  <div class="card FilmPlusVu" style="width:290px; margin-top: 10%;">
                                     <div class="row">
                                       <div class="col-sm-6">
-                                        <iframe class="card-img" id="image" src="https://www.youtube.com/embed/GVxwcrGMlcU"></iframe>
+                                        <iframe class="card-img image" src="https://www.youtube.com/embed/GVxwcrGMlcU"></iframe>
                                       </div>
                                       <div class="col-sm-6">
                                         <div class="card-body-right">
@@ -306,10 +347,10 @@
                                       </div>
 
 
-                                      <div class="card" style="width:400px; margin-top: 10%;">
+                                      <div class="card FilmPlusVu" style="width:290px; margin-top: 10%;">
                                         <div class="row">
                                           <div class="col-sm-6">
-                                            <iframe class="card-img" id="image" src="https://www.youtube.com/embed/GVxwcrGMlcU"></iframe>
+                                            <iframe class="card-img image" src="https://www.youtube.com/embed/GVxwcrGMlcU"></iframe>
                                           </div>
                                           <div class="col-sm-6">
                                             <div class="card-body-right">
@@ -322,10 +363,10 @@
                                           </div>
 
 
-                                          <div class="card" style="width:400px; margin-top: 10%;">
+                                          <div class="card FilmPlusVu" style="width:290px; margin-top: 10%;">
                                             <div class="row">
                                               <div class="col-sm-6">
-                                                <iframe class="card-img" id="image" src="https://www.youtube.com/embed/GVxwcrGMlcU"></iframe>
+                                                <iframe class="card-img image" src="https://www.youtube.com/embed/GVxwcrGMlcU"></iframe>
                                               </div>
                                               <div class="col-sm-6">
                                                 <div class="card-body-right">
